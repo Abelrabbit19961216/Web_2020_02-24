@@ -1,0 +1,38 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 微軟正黑體;
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100px;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  padding: 30px;
+  text-decoration: none;
+  display: inline-block;
+  color: #FFF;
+  font-size: 30px;
+}
+
+section {
+  height: 100vh;
+  text-align: center;
+  line-height: 100vh;
+  font-size: 80px;
+  color: #FFF;
+}
+
+section:nth-of-type(odd) {
+  background: #e07c3a;
+}
+
+section:nth-of-type(even) {
+  background: #6ec9b5;
+}
+/*# sourceMappingURL=styl.css.map */
