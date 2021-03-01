@@ -35,4 +35,19 @@ section:nth-of-type(odd) {
 section:nth-of-type(even) {
   background: #6ec9b5;
 }
+
+section:nth-of-type(3) {
+  background: #0e3da3;
+}
+
+#arrow {
+  background-image: url(./3671665-32.png);
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2;
+  cursor: pointer;
+}
 /*# sourceMappingURL=styl.css.map */

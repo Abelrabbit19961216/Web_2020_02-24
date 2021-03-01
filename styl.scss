@@ -32,4 +32,19 @@ section {
     &:nth-of-type(even) {
         background: rgb(110, 201, 181);
     }
+
+    &:nth-of-type(3) {
+        background: rgb(14, 61, 163);
+    }
+}
+
+#arrow {
+    background-image: url(./3671665-32.png);
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 2;
+    cursor: pointer;
 }
